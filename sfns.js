@@ -74,7 +74,14 @@ var nickNames = [
       'Blaser',
       'The Hammerhead',
       'The Judge',
-      'The Roamin\' Catholic'
+      'The Roamin\' Catholic',
+      'Fiesty Pants',
+      'The Toxic Avenger',
+      'The Dump Truck',
+      'Bag O\' Donuts',
+      'Flat Hands',
+      'The Wall',
+      'The Hound'
     ];
 
 var prefixes = [
