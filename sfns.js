@@ -47,7 +47,32 @@ var nickNames = [
       'The Microwave',
       'Bob',
       'Golden Toes',
-      'Bowling Ball'
+      'Bowling Ball',
+      'Bad Santa',
+      'Chowderfoot',
+      'Chunderbucket',
+      'Twelve Toes',
+      'The Dunwich Horror',
+      'Party Fowl',
+      'Pumpernickle',
+      'Zuckerberg',
+      'Genghis Can\'t',
+      'Fancy Feast',
+      'Shmoopie Poops',
+      'Cuddle Flood',
+      'Tater Cakes',
+      'Fluffernutter',
+      'The Question Mark',
+      'Double Trouble',
+      'Melon Belly',
+      'Burger King',
+      'Ponzi Scheme',
+      'Ham Bone',
+      'Pack O\' Smokes',
+      'Muffin Man',
+      'Nitro',
+      'Blaser',
+      'The Hammerhead'
     ];
 
 var prefixes = [
