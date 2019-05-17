@@ -8,7 +8,8 @@ function teamNameHandler(e){
     e.preventDefault();
     var teamName = getTeamName();
     console.log(teamName);
-    $('.team-name').text(teamName);
+    $('.generated-name').text(teamName);
+    $('.generated-name-container').show();
 }
 
 function nickNameHandler(e){
@@ -16,7 +17,20 @@ function nickNameHandler(e){
     var firstName = $('#firstName').val();
     var lastName = $('#lastName').val();
     var nickName = getNickname();
+    var valid = true;
 
-    var fullName = firstName + ' "' + nickName + '" ' + lastName;
-    $('.nick-name').text(fullName);
+    if(firstName == ''){
+        $('#firstNameError').show();
+        valid = false;
+    }
+    if(lastName == ''){
+        $('#lastNameError').show();
+        valid = false;
+    }
+
+    if(valid){
+        var fullName = firstName + ' "' + nickName + '" ' + lastName;
+        $('.generated-name').text(fullName);
+        $('.generated-name-container').show();
+    }
 }
