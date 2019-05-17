@@ -8,7 +8,8 @@ function teamNameHandler(e){
     e.preventDefault();
     var teamName = getTeamName();
     console.log(teamName);
-    $('.generated-name').text(teamName);
+    $('.generated-name').html("<em>" + teamName + "</em>");
+    $('.generated-lead').text("Your new team is");
     $('.generated-name-container').show();
 }
 
@@ -29,8 +30,9 @@ function nickNameHandler(e){
     }
 
     if(valid){
-        var fullName = firstName + ' "' + nickName + '" ' + lastName;
-        $('.generated-name').text(fullName);
+        var fullName = firstName + ' <em>"' + nickName + '"</em> ' + lastName;
+        $('.generated-name').html(fullName);
+        $('.generated-lead').text("You will now be known as");
         $('.generated-name-container').show();
     }
 }

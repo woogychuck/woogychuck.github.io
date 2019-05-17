@@ -36,7 +36,7 @@ var nickNames = [
       'Goose',
       'The Hitman',
       'The Iceman',
-      'The Mailmain',
+      'The Mailman',
       'The Mountain',
       'Just A Really OK Dude',
       'Prime Time',

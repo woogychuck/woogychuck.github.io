@@ -30,7 +30,7 @@ h4 {
 .name-generator-wrapper {
     width: 800px;
     margin: 20px auto;
-    padding:20px;
+    padding: 0 20px 20px 20px;
     background-color: #fff;
     border:2px solid #444;
     -webkit-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.75);
@@ -99,4 +99,25 @@ h4 {
 h1.generated-name {
     text-align: center;
     color:#53777A;
+    margin-top:0;
+    font-size: 2.5em;
+}
+
+h1.generated-name em {
+    color:#D95B43;
+    font-style: normal;
+    font-size: 1.2em;
+}
+
+h4.generated-lead {
+    text-align: center;
+    margin:15px 0 0 0;
+}
+
+.disclaimer {
+    width: 800px;
+    margin: 20px auto;
+    font-size: .8em;
+    color:#fff;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.51);
 }
