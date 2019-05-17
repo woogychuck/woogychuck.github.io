@@ -107,6 +107,7 @@ var prefixes = [
       'Mauled by ',
       'Nefarious ',
       'Not Nice ',
+      'Number 1 ',
       'Oh No It\'s the ',
       'Perilous ',
       'Prickly',
@@ -143,7 +144,13 @@ var prefixes = [
       'Crab Fishin\' ',
       'Everybody Says They\'re the Best ',
       'Painfully Honest ',
-      'The People Who Ate The '
+      'The People Who Ate The ',
+      'Flacid ',
+      'The Right Honourable ',
+      'Furry ',
+      '#',
+      'Skull and Cross ',
+      'Plopping '
     ];
 
 var nouns = [
@@ -170,10 +177,12 @@ var nouns = [
       'Executive Assistants',
       'Flip Flops',
       'Fishermen',
+      'Furries',
       'Guy Fieris',
       'Gorgons',
       'Grandmas',
       'Geese',
+      'House Brands That Are 10% Off When You Buy 3 or More',
       'Ideas That Are Yours BUT GOD DAMN KAREN STOLE',
       'Impressionist Paintings',
       'Jorns',
@@ -195,6 +204,7 @@ var nouns = [
       'Nerds',
       'Narwhals',
       'Ninjas',
+      'Number 2s',
       'Ostriches',
       'Pandas',
       'Polar Bears',
@@ -205,6 +215,7 @@ var nouns = [
       'Quails',
       'Racoons',
       'Rapping Grandmothers',
+      'Ruth Bader Ginsebergs',
       'Sea Gulls',
       'Salespeople',
       'Silly Ninnies',
