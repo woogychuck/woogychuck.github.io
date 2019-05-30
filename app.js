@@ -4,7 +4,6 @@ $(function() {
 });
 
 function teamNameHandler(e){
-    console.log('GENERATING NAME');
     e.preventDefault();
     var teamName = getTeamName();
     console.log(teamName);
