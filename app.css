@@ -114,6 +114,11 @@ h4.generated-lead {
     margin:15px 0 0 0;
 }
 
+.generated-message {
+    text-align: center;
+    color:#999;
+}
+
 .disclaimer {
     width: 800px;
     margin: 20px auto;
