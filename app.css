@@ -12,16 +12,16 @@ h1, h2, h3, h4 {
 
 h1 {
     font-size: 3em;
-    color:#D95B43;
+    color:#F87C2D;
     
 }
 h2 {
     font-size: 2em;
-    color:#C02942;
+    color:#E85C0D;
 }
 h3 {
     font-size: 1.8em;
-    color:#53777A;
+    color:#008EB4;
 }
 h4 {
     font-size: 1.5em;
@@ -72,7 +72,7 @@ h4 {
 	-moz-box-shadow:inset 0px 1px 0px 0px #cf866c;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #cf866c;
 	box-shadow:inset 0px 1px 0px 0px #cf866c;
-	background-color:#d0451b;
+	background-color:#F87C2D;
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
 	border-radius:3px;
@@ -98,13 +98,13 @@ h4 {
 
 h1.generated-name {
     text-align: center;
-    color:#53777A;
+    color:#008EB4;
     margin-top:0;
     font-size: 2.5em;
 }
 
 h1.generated-name em {
-    color:#D95B43;
+    color:#F87C2D;
     font-style: normal;
     font-size: 1.2em;
 }
