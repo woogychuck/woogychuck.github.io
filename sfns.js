@@ -81,7 +81,15 @@ var nickNames = [
       'Bag O\' Donuts',
       'Flat Hands',
       'The Wall',
-      'The Hound'
+      'The Hound',
+      'The Alabama Miracle',
+      'Trucker Bomb',
+      'Sweet Gherkin',
+      'Dill Spear',
+      'Cork Bat',
+      'The Janitor',
+      'Chunky Toes',
+      'K-Bar'
     ];
 
 var prefixes = [
@@ -178,11 +186,13 @@ var prefixes = [
       'A Subtle Aroma of ',
       'Heavily Caffienated ',
       'Vegetarian ',
-      'Mostly Vegan '
+      'Mostly Vegan ',
+      'As Seen On TV - ',
+      'Store Brand ',
     ];
 
 var nouns = [
-      'Aadvarks',
+      'Aardvarks',
       'Authoritarian Dictators',
       'Actuaries',
       'Barnacles',
@@ -219,6 +229,7 @@ var nouns = [
       'Gorgons',
       'Grandmas',
       'Geese',
+      'Giants',
       'Hufflepuffs',
       'House Brands That Are 10% Off When You Buy 3 or More',
       'Ideas That Are Yours BUT GOD DAMN KAREN STOLE',
@@ -252,6 +263,7 @@ var nouns = [
       'Pandolins',
       'Porcupines',
       'Potato Guns',
+      'Public Defenders',
       'Pigeons',
       'Putins',
       'Quails',
