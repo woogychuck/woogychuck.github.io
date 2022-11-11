@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Sweet F***ing Names as a Service</title>
+        <link rel="stylesheet" href="app.css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Anton&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="name-generator-wrapper">
+            <h1>Sweet Names as a Service</h1>
+            <p>
+                Do you need a name for a team? Have you always craved a sweet sports nickname? If so, this service will help. 
+                The team names won't be good and the nick names are most certainly already used by somebody more famous than 
+                you, but the name will be sweet.
+            </p>
+            <div class="generators-container">
+                <div class="team-name-container generator-container">
+                    <h3>Generate a Team Name</h3>
+                    <p>
+                        Click the link below to generate a name for your team that will inspire your fans, strike fear into the 
+                        hearts of your opponents, and almost certainly be useless and confusing.
+                    </p>
+                    <a href="#" class="team-name-button generator-button">Generate The Glorious Name</a>
+                </div>
+                <div class="nick-name-container generator-container">
+                    <h3>Generate a Nickname</h3>
+                    <p>
+                        Have you always wanted a kick ass sports nickname, but your don't have the athletic ability to actually earn 
+                        one. Use the form below to generate/steal one now!
+                    </p>
+                    <form class="nick-name-form">
+                        <div class="form-field">
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName" required />
+                            <span id="firstNameError" class="error">Enter a First Name</span>
+                        </div>
+                        <div class="form-field">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" required />
+                            <span id="lastNameError" class="error">Enter a Last Name</span>
+                        </div>
+                        <a href="#" class="nick-name-button generator-button">What's my new nickname?</a>
+                    </form>
+                </div>
+            </div>
+            <div class="generated-name-container">
+                <h4 class="generated-lead"></h4>
+                <h1 class="generated-name"></h1>
+                <div class="generated-message">If you don't like it, click the button again for a new one.</div>
+            </div>
+        </div>
+        <div class="disclaimer">
+            This was lovingly crafted by Ian "Woogychuck" Muir. Please feel free to use any of this code to generate dumb names for your own projects. If you do, please take a few minutes to add a few more dumb names.
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="sfns.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
